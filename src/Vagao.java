@@ -1,7 +1,12 @@
+import java.io.Serializable;
 
-public class Vagao {
+public class Vagao implements Serializable{
 	
-	    private char identificador;
+	    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+		private char identificador;
 	    private String carga;
 
 	    public Vagao(char identificador, String carga) {

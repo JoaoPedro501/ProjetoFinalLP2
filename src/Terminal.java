@@ -1,7 +1,12 @@
+import java.io.Serializable;
 
-public class Terminal {
+public class Terminal implements Serializable{
 	
-	    private String nome;
+	    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+		private String nome;
 	    private Composicao composicao;
 
 	    public Terminal(String nome) {
